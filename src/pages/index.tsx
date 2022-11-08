@@ -1,4 +1,5 @@
 
+
 interface HomeProps {
   count: number;
 }
@@ -7,7 +8,7 @@ export default function Home(props: HomeProps) {
 
 
   return (
-    <h1>
+    <h1 className="text-violet-500 font-bold">
       Contagem: {props.count}
     </h1>
   )
